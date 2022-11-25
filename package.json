@@ -1,0 +1,22 @@
+{
+  "name": "haywhyvilla",
+  "version": "1.0.0",
+  "description": "Landing page for haywhyvilla",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haywhyvilla/My-Portfolio-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haywhyvilla/My-Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/haywhyvilla/My-Portfolio-Website#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
