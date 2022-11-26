@@ -32,3 +32,51 @@ body {
     animation-timing-function: ease-out;
   }
 }
+
+.heading-secondary {
+  font-size: 7rem;
+  font-weight: 800;
+  font-family: "Playfair Display", sans-serif;
+  display: inline-block;
+  background-image: linear-gradient(to right, $color-about, $color-about);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+  }
+}
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.article {
+  font-size: 2.9rem;
+}
+
+.paragraph {
+  font-size: 2.9rem;
+  color: $color-about;
+  font-family: "Times New Roman", Times, serif;
+
+  &:first-child {
+    margin-top: -5vh;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+
+  .btn-text {
+    &:link,
+    &:visited {
+      color: $color-about;
+      text-decoration: none;
+      border-bottom: 1px solid $color-about;
+    }
+  }
+}
