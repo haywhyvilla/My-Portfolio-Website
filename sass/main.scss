@@ -7,16 +7,16 @@
 @import "base/typography";
 @import "base/utilities";
 
+@import "components/bg-video";
 @import "components/button";
 @import "components/feature-box";
 @import "components/card";
+@import "components/story";
 
 @import "layout/grid";
 @import "layout/header";
 
-@import "pages/home";
-
-// $color-primary: #55c57a;
+@import "pages/home"; // $color-primary: #55c57a;
 // $color-primary-light: #7ed56f;
 // $color-primary-dark: #28b485;
 // $color-primary: #0e0e39;
