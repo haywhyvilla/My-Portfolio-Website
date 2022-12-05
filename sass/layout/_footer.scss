@@ -1,0 +1,51 @@
+.footer {
+  background-color: $color-grey-light-1;
+  padding: 10rem 0 3rem;
+  text-align: center;
+
+  &_box {
+    margin: 2rem 35rem;
+    padding: 4rem 0;
+    border: 0.4rem solid $color-about;
+    border-radius: 5px;
+  }
+
+  &_paragraph {
+    color: $color-about;
+    font-size: 2.9rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 5rem;
+  }
+
+  &_navigation {
+  }
+
+  &_list {
+    list-style: none;
+  }
+
+  &_item {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 600;
+
+    &:not(:last-child) {
+      margin-right: 1.5rem;
+    }
+  }
+
+  &_link {
+    &:link,
+    &:visited {
+      color: $color-about;
+      text-decoration: none;
+      display: inline-block;
+
+      &:hover,
+      &:active {
+        box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+      }
+    }
+  }
+}

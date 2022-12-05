@@ -49,6 +49,16 @@ body {
   }
 }
 
+.heading-mid {
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: "Playfair Display", sans-serif;
+  display: inline-block;
+  background-image: linear-gradient(to right, $color-about, $color-about);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 .heading-tertiary {
   font-size: 1.6rem;
   font-weight: 700;
