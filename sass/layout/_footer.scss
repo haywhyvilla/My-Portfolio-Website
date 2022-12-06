@@ -41,11 +41,23 @@
       color: $color-about;
       text-decoration: none;
       display: inline-block;
+      margin-bottom: 5rem;
 
       &:hover,
       &:active {
+        background-color: $color-footer;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
         box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
       }
     }
+  }
+
+  &_span {
+    background-color: $color-footer;
+    color: $color-white;
+    padding: 1rem 1rem;
+    font-weight: 800;
+    border-radius: 1rem;
   }
 }
